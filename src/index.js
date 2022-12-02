@@ -3,6 +3,13 @@ import ReactDOM from 'react-dom/client';
 
 import Home from './pages/Home';
 import reportWebVitals from './reportWebVitals';
+
+// Imports the font used by Material-UI https://material-ui.com/components/typography/#install-with-npm
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 import './index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="container">
       <div className="logo">
-        <img src={logo} className="logo-image" />
+        <img src={logo} className="logo-image" alt="webiste logo" />
       </div>
       <div className="header">header</div>
       <div className="nav">nav</div>
