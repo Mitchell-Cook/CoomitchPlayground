@@ -1,19 +1,17 @@
+import { Box } from '@mui/system';
 import React from 'react';
+
+import ButtonAppBar from '../../components/ButtonAppBar';
 
 import './Home.css';
 import logo from './logo.svg';
 
 function Home() {
   return (
-    <div className="container">
-      <div className="logo">
-        <img src={logo} className="logo-image" alt="webiste logo" />
-      </div>
-      <div className="header">header</div>
-      <div className="nav">nav</div>
-      <div className="content">content</div>
-      <div className="footer">footer</div>
-    </div>
+    <Box>
+      <ButtonAppBar />
+      <img src={logo} className="logo-image" alt="website logo" />
+    </Box>
   );
 };
 
