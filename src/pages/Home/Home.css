@@ -1,9 +1,15 @@
 /* NON GRID LAYOUT HERE */
+
+.logo-image {
+  display: none;
+}
+
 @media (grid: 0) {
   /* MOBILE LAYOUT HERE */
   @media (min-width: 768px) {
+
     .container {
-      background-color: aquamarine;
+      background-color: floralwhite;
       height: 100vh;
       width: 100vw;
       display: grid;
@@ -17,12 +23,14 @@
     }
     
     .logo {
-      background-color: aliceblue;
       grid-area: logo;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
+    }
+
+    .logo-image {
+      display: inline;
     }
     
     .header {

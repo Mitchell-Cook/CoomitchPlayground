@@ -1,12 +1,11 @@
 import './Home.css';
+import logo from './logo.svg';
 
 function Home() {
   return (
     <div className="container">
       <div className="logo">
-        <div>LOGO</div>
-        <div>Business Name</div>
-        <div>Est. 2022</div>
+        <img src={logo} className="logo-image" />
       </div>
       <div className="header">header</div>
       <div className="nav">nav</div>
